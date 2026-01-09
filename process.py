@@ -1,14 +1,12 @@
-class DaftarMahasiswa:
-    def __init__(self):
-        self.list_mhs = []
-
-    def tambah_data(self, mhs):
-        self.list_mhs.append(mhs)
-
-    def validasi_input(self, nim):
-        if not nim:
-            raise ValueError("NIM tidak boleh kosong!")
-        
-        for mhs in self.list_mhs:
-            if mhs.nim == nim:
-                raise ValueError(f"NIM {nim} sudah terdaftar!")
+class MahasiswaProcess:
+    def hitung_grade(self, nilai):
+        if nilai >= 85:
+            return "A"
+        elif nilai >= 70:
+            return "B"
+        elif nilai >= 60:
+            return "C"
+        elif nilai >= 50:
+            return "D"
+        else:
+            return "E"

@@ -147,6 +147,3 @@ Tujuan utama kodingan ini adalah User Experience (UX). Daripada hanya mencetak d
 
 
 
-
-   
-

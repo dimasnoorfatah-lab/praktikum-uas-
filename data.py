@@ -1,5 +1,8 @@
-class Mahasiswa:
-    def __init__(self, nim, nama, nilai):
-        self.nim = nim
-        self.nama = nama
-        self.nilai = nilai
+class RectangleData:
+    def __init__(self):
+        self.length = 0
+        self.width = 0
+
+    def set_data(self, length, width):
+        self.length = length
+        self.width = width
