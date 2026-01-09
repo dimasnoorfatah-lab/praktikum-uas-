@@ -139,7 +139,7 @@ Data Mahasiswa:
 Kesimpulan
 Tujuan utama kodingan ini adalah User Experience (UX). Daripada hanya mencetak data secara berantakan, penggunaan :<10 memastikan data tersaji dalam format tabel yang profesional dan mudah dibaca oleh pengguna
 
-link yt https://youtu.be/cy2g3R1OSv0
+[link YouTube](https://youtu.be/cy2g3R1OSv0)
 
 
 
