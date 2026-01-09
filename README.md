@@ -35,16 +35,12 @@ from view import viewmahasiswa
 def main():
     proses = prosesmahasiswa()
     view = viewmahasiswa()
-
     mahasisawa = None 
     while mahasiswa is None:
       mahasiswa = proses.inputmahasiswa()
-
       view.tampilkanmahasiswa(mahasiswa)
-
       if __name__ == "__main__":
          main()
-
          rom process import prosesmahasiswa: Mengambil logika pemrosesan data (seperti input) dari file bernama process.py.
 
 from view import viewmahasiswa: Mengambil logika tampilan (cara menampilkan data) dari file bernama view.py.
@@ -142,6 +138,8 @@ Data Mahasiswa:
 ----------------------------
 Kesimpulan
 Tujuan utama kodingan ini adalah User Experience (UX). Daripada hanya mencetak data secara berantakan, penggunaan :<10 memastikan data tersaji dalam format tabel yang profesional dan mudah dibaca oleh pengguna
+
+link yt https://youtu.be/cy2g3R1OSv0
 
 
 
