@@ -7,6 +7,7 @@ Buatlah program sederhana dengan ketentuan:
 • Program menapilkan hasil (dapat berupa table view)
 
 1. data.py
+   
    class Mahasiswa:
     def __init__(self, nim, nama, nilai):
         self.nim = nim
